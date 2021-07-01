@@ -1,0 +1,116 @@
+<% include template/header %>
+
+		<!-- lead -->
+		<a class="ish-row ish-fullrow ish-lead" href="chi-tiet">
+			<span class="ish-lead__caption ish-icon-up">Featured Portfolio</span>
+			<div class="ish-lead__image">
+				<img src="./images/123.jpg" alt="work in silent">
+			</div>
+			<h1 class="ish-lead__headline">
+				<span class="ish-lead__headline-inner">Workin<br>Silent</span>
+			</h1>
+		</a>
+		<!-- lead end -->
+
+
+
+		<!-- content -->
+		<div class="ish-row ish-content ish-portfolio ish-macy">
+
+      <!-- main content -->
+			<ul class="ish-portfolio-item ish-portfolio-filter">
+				<li class="ish-portfolio-filter__item ish-portfolio-filter--title"><h5>Filter:</h5></li>
+				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link ish-portfolio-filter__link--active" href="#all">All</a></li>
+				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#samsung">Samsung</a></li>
+				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#oppo">Oppo</a></li>
+				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#iphone">Iphone</a></li>
+				<li class="ish-portfolio-filter__item"><a class="ish-portfolio-filter__link" href="#vsmart">Vsmart</a></li>
+			</ul>
+
+			<% 	locals_dulieu.sanpham.forEach(function(motsp)  {	%>
+
+			<a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= motsp.brand %> " href="chi-tiet.<%= motsp.routerSEO  %>.<%= motsp.id %>">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src= <%= motsp.bigImages %>  alt="business cards">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title"> <%=  motsp.title  %> </span>
+					<span class="ish-portfolio-item__subtitle"><%=motsp.brand%></span>
+				</div>
+			</a>
+
+			<%	})	%>
+
+			<!--
+			<a class="ish-portfolio-item ish--tc7 ish-portfolio-identity" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p2.jpg" alt="the carpets are dirty">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">The Carpets are Dirty</span>
+					<span class="ish-portfolio-item__subtitle">Identity</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--tc8 ish-portfolio-mockup" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p3.jpg" alt="ipad PSD">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">iPad PSD</span>
+					<span class="ish-portfolio-item__subtitle">Mockup</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--tc9 ish-portfolio-application" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p4.jpg" alt="app screen">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">App Screen</span>
+					<span class="ish-portfolio-item__subtitle">Application</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--tc10 ish-portfolio-application" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p5.jpg" alt="graphic twister">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">Graphic Twister</span>
+					<span class="ish-portfolio-item__subtitle">Application</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--tc11 ish-portfolio-mockup" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p6.jpg" alt="a poster">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">A Poster</span>
+					<span class="ish-portfolio-item__subtitle">Mockup</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--tc12 ish-portfolio-identity" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p7.jpg" alt="identity design">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">Identity Design</span>
+					<span class="ish-portfolio-item__subtitle">Identity</span>
+				</div>
+			</a>
+			<a class="ish-portfolio-item ish--hc13 ish-portfolio-print" href="chi-tiet">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src="./images/p8.jpg" alt="product brochure">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title">Product Brochure</span>
+					<span class="ish-portfolio-item__subtitle">Print</span>
+				</div>
+			</a>
+
+		-->
+
+      <!-- main content end -->
+		</div>
+		<!-- content end -->
+
+
+<% include template/footer %>

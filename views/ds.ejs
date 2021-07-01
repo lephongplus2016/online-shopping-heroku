@@ -1,0 +1,30 @@
+<% include template/header %>
+	 <!-- content -->
+        <div class="ish-row ish-content ish-portfolio ish-macy">
+        <% 	danhSachSP.forEach(function(idsp)  {	%>
+
+
+                <% 	locals_dulieu.sanpham.forEach(function(motsp)  {	
+                        if(motsp.id == idsp) {      %>
+
+			<a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= motsp.brand %> " href="chi-tiet.<%= motsp.routerSEO  %>.<%= motsp.id %>">
+				<div class="ish-portfolio-item__image-container">
+					<img class="ish-portfolio-item__image" src= <%= motsp.bigImages %>  alt="business cards">
+				</div>
+				<div class="ish-portfolio-item__desc">
+					<span class="ish-portfolio-item__title"> <%=  motsp.title  %> </span>
+					<span class="ish-portfolio-item__subtitle"><%=motsp.brand%></span>
+				</div>
+			</a>
+
+			<% }      }) 
+                	
+
+             })   %>
+
+             <!-- main content end -->
+		  </div>
+		<!-- content end -->
+
+
+<% include template/footer %>

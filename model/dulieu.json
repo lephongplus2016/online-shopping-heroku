@@ -1,0 +1,60 @@
+{
+    "sanpham": [
+        {
+            "id": 1,
+            "title": "Samsung J7 Prime",
+            "bigImages":"./images/dt/dt1/1.jpg",
+            "productImages":["./images/dt/dt1/2.jpg", "./images/dt/dt1/3.jpg","./images/dt/dt1/4.jpg","./images/dt/dt1/5.jpg"],
+            "des":"Galaxy J7 Prime xứng đáng là cái tên hàng đầu trong danh sách chọn smartphone phổ thông của giới trẻ khi nhận được nhiều đánh giá tích cực về thiết kế, thời lượng pin lâu dài và camera chụp hình chất lượng tốt.",
+            "comment":"Sử dụng mượt mà, cảm ứng nhạy, đặc biệt dòng này thích nhất cảm ứng vân tay, chỉ cần đặt ngón tay lên là nó mở khóa, sáng màn hình chứ không như dòng khác là phải nhấn vào gây lờn nút Home. Pin dùng liên tục được hơn 4h, thiết kế vừa tay tiện lợi.  Kh:  Văn Tình - Sa Đéc, Đồng Tháp",
+            "link":"https://www.thegioididong.com/dtdd/samsung-galaxy-j7-prime?src=osp",
+            "brand": "samsung",
+            "routerSEO": "Samsung-J7-Prime"
+        },
+        {
+            "id": 2,
+            "title": "Samsung A50",
+            "bigImages":"./images/dt/dt2/1.jpg",
+            "productImages":["./images/dt/dt2/2.jpg", "./images/dt/dt2/3.jpg"],
+            "des":"Samsung Galaxy A50 là mẫu smartphone đầu tiên mà Samsung sử dụng màn hình Infinity-U với phần notch nhỏ gọn hình giọt nước.",
+            "comment":"Samsung mới chỉ sử dụng công nghệ cảm biến vân tay trong màn hình trên bộ đôi siêu phẩm Galaxy S10 và S10+ vừa ra mắt trước đó nhưng trên Galaxy A50 Samsung cũng đã ưu ái trang bị công nghệ này. Với việc đặt cảm biến vân tay bên trong màn hình thì bạn sẽ không phải hi sinh một phần trên thiết kế của máy để đặt cảm biến vân tay qua đó cho bạn một chiếc máy liền mạch hơn. Bên cạnh đó bạn cũng có thể mở khóa bằng khuôn mặt một cách nhanh chóng với Samsung Galaxy A50.",
+            "link":"https://www.thegioididong.com/dtdd/samsung-galaxy-a50-128gb?src=osp",
+            "brand": "samsung",
+            "routerSEO": "Samsung-A50"
+        },
+        {
+            "id": 3,
+            "title": "Oppo Reno 2f",
+            "bigImages":"./images/dt/dt3/1.jpg",
+            "productImages":["./images/dt/dt3/2.jpg", "./images/dt/dt3/3.jpg"],
+            "des":"OPPO Reno2 F là một trong 3 chiếc smartphone thuộc dòng OPPO Reno2 vừa được OPPO giới thiệu với thiết kế thời trang cùng nhiều nâng cấp mạnh mẽ về camera.",
+            "comment":"Cụm camera trên OPPO Reno2 F đã được nâng cấp rõ rệt với camera chính độ phân giải 48 MP cùng ống kính thứ 2 vẫn là 8 MP chụp ảnh góc siêu rộng, một ống kính 2 MP dùng để chụp ảnh chân dung xóa phông và một ống kính 2 MP hỗ trợ chụp ảnh đen trắng.",
+            "link":"https://www.thegioididong.com/dtdd/oppo-reno2-f#top-unbox-gallery-0",
+            "brand": "oppo",
+            "routerSEO": "Oppo-Reno-2f"
+        },
+        {
+            "id": 4,
+            "title": "Iphone 12 Pro",
+            "bigImages":"./images/dt/dt4/1.jpg",
+            "productImages":["./images/dt/dt4/2.jpg", "./images/dt/dt4/3.jpg", "./images/dt/dt4/4.jpg", "./images/dt/dt4/5.jpg"],
+            "des":"Điểm sáng giá đầu tiên phải nói đến kết nối 5G lần đầu được Apple tích hợp trên các dòng iPhone 12 của mình với tốc độ và hiệu suất cao.",
+            "comment":"Mỗi năm là sự thay đổi mới khi ra mắt các dòng sản phẩm của Apple và năm nay cũng không ngoại lệ khi iPhone 12 Pro được trang bị con chip xử lý A14 Bionic mạnh mẽ được sản xuất trên tiến trình 5 nm mang đến những cải tiến về tốc độ lẫn hiệu năng vượt trội.",
+            "link":"https://www.thegioididong.com/dtdd/iphone-12-pro-512gb?src=osp",
+            "brand": "iphone",
+            "routerSEO": "Iphone-12-Pro"
+        },
+        {
+            "id": 5,
+            "title": "Vsmart Aris Pro",
+            "bigImages":"./images/dt/dt5/1.jpg",
+            "productImages":["./images/dt/dt5/2.jpg", "./images/dt/dt5/3.jpg","./images/dt/dt5/4.jpg","./images/dt/dt5/5.jpg"],
+            "des":"Thương hiệu smartphone Việt - Vsmart chính thức trình làng Vsmart Aris Pro.",
+            "comment":"Tích hợp viên pin 4000 mAh bên trong giúp cho mẫu điện thoại mới của Vsmart có thời gian sử dụng trong khoảng 1 ngày. Bên cạnh đó, máy cũng sẽ đi kèm 1 củ sạc pin nhanh 18 W cho tốc độ sạc vô cùng nhanh chóng.",
+            "link":"https://www.thegioididong.com/dtdd/vsmart-aris-pro?src=osp#top-color-images-gallery-7",
+            "brand": "vsmart",
+            "routerSEO": "Vsmart-Aris-Pro"
+        }
+
+    ]
+}
