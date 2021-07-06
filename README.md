@@ -24,3 +24,5 @@ _http://localhost:3000/_
 ### Reference
 I use `nodejs` with framework `express` to build this website.
 Learn more about technology at [NodeJs](https://nodejs.org/en/docs/) && [Express](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
+
+### Access my demo website: [online-shopping-mall-lhp.herokuapp.com](https://online-shopping-mall-lhp.herokuapp.com/)
